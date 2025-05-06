@@ -20,7 +20,9 @@
             </div>
             <div class="hamburger">
                 <i class="fa-solid fa-bars toggle-btn"></i>
-                <i class="fa-solid fa-moon darkmode" onclick="darkMode()"></i>
+                <div class="dark">
+                    <i class="fa-solid fa-moon darkmode" onclick="darkMode()"></i>
+                </div>
             </div>
         </div>
     </header>
