@@ -18,8 +18,13 @@
                 <a href="#contact" class="links">Contact</a>
                 <a href="/login" class="btn-primary">Login</a>
             </div>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars toggle-btn"></i>
+                <i class="fa-solid fa-moon darkmode" onclick="darkMode()"></i>
+            </div>
         </div>
     </header>
     @yield('section')
 </body>
+<script src="{{asset ('js/main.js')}}"></script>
 </html>

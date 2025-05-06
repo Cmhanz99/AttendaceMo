@@ -12,10 +12,22 @@
             </div>
         </div>
         <div class="topic-hero">
-                <div class="box">box 1</div>
-                <div class="box">box 2</div>
-                <div class="box">box 3</div>
-                <div class="box">box 4</div>
+                <div class="box">
+                    <i class="fa-solid fa-list-check"></i>
+                    <p>Efficiently organize and update attendances.</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-eye"></i>
+                    <p>Gain insights into student participation.</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-file-invoice"></i>
+                    <p>Safeguard attendance integrity effortlessly.</p>
+                </div>
+                <div class="box">
+                    <i class="fa fa-sliders"></i>
+                    <p>Customize attendance for your needs.</p>
+                </div>
         </div>
     </section>
 
