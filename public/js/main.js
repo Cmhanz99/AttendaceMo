@@ -14,3 +14,15 @@ function darkMode(){
     }
 }
 
+const chatIcon = document.querySelector('.chat-icon');
+const chatBot = document.querySelector('.chat-bot');
+const chatClose = document.querySelector('.chat-close');
+
+chatIcon.addEventListener('click', () => {
+    chatBot.classList.add('show');
+})
+
+chatClose.addEventListener('click', () => {
+    chatBot.classList.remove('show');
+}
+)

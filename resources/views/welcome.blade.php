@@ -8,7 +8,7 @@
             <p>AttendanceMO is a websystem where you can freely manage your attendance.</p>
             <div class="hero-btn">
                 <a href="#about" class="btn-primary">See More</a>
-                <a href="/" class="btn-class">Sign In</a>
+                <a href="/signup" class="btn-class">Sign Up</a>
             </div>
         </div>
         <div class="topic-hero">
@@ -129,4 +129,26 @@
         </div>
     </footer>
 </main>
+<div class="chat-icon">
+    <i class="fa fa-message"></i>
+</div>
+
+<div class="chat-bot">
+    <div class="chat-header">
+        <h3>Chat with us</h3>
+        <i class="fa-solid fa-xmark chat-close"></i>
+    </div>
+    <div class="chat-body">
+        <div class="chat-box">
+            <p>Hi! How can I help you?</p>
+        </div>
+        <div class="chat-box">
+            <p>Hi! How can I help you?</p>
+        </div>
+    </div>
+    <div class="chat-footer">
+        <input type="text" placeholder="Type your message here..">
+        <button><i class="fa-solid fa-paper-plane"></i></button>
+    </div>
+</div>
 @endsection

@@ -1,0 +1,83 @@
+.main-dashboard {
+    width: calc(100% - 20%);
+}
+
+.teachers-section {
+    height: calc(100% - 10%);
+    display: flex;
+    flex-direction: column;
+    background: var(--primary-color);
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.teachers-section .teacher-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+.add-teacher {
+    padding: 10px;
+    background: var(--secondary-color);
+    border: none;
+    border-radius: 5px;
+}
+
+.add-teacher a {
+    text-decoration: none;
+    color: white;
+}
+
+.teacher-lists {
+    width: 100%;
+}
+
+.teacher-lists table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.teacher-lists table th,
+.teacher-lists table td {
+    padding: 10px;
+    border: 2px solid #c4c4c4;
+    color: white;
+}
+
+.teacher-lists table th {
+    background: var(--secondary-color);
+    color: black;
+}
+
+.teacher-lists .actions {
+    display: flex;
+    align-items: center;
+}
+
+.teacher-lists .actions a {
+    text-decoration: none;
+    color:white;
+}
+
+.teacher-lists .actions .edit-btn {
+    background: var(--secondary-color);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.teacher-lists .actions .remove-btn {
+    background: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+
+
