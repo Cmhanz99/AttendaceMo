@@ -34,7 +34,9 @@
                 h-8 px-3 text-sm mt-2 rounded outline-none"
                     type="text" name="user_name" value="{{old('user_name')}}" required maxlength="10" minlength="5">
             </div>
-
+            @if(session('error'))
+                <p class="text-red-500 text-sm mt-2">{{ session('error') }}</p>
+            @endif
             <div class="flex flex-col w-full mt-3 relative">
                 <label for="password">Password</label>
                 <input
@@ -81,13 +83,4 @@
     }
     });
 </script>
-@if(session('error'))
-    <script>
-        Swal.fire({
-        title: '!Username',
-        text: '{{session("error")}}',
-        icon: 'error'
-        });
-    </script>
-@endif
 </html>

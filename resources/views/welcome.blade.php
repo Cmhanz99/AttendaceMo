@@ -135,13 +135,10 @@
 
 <div class="chat-bot">
     <div class="chat-header">
-        <h3>Chat with us</h3>
+        <h3>Assitant</h3>
         <i class="fa-solid fa-xmark chat-close"></i>
     </div>
     <div class="chat-body">
-        <div class="chat-box">
-            <p>Hi! How can I help you?</p>
-        </div>
         <div class="chat-box">
             <p>Hi! How can I help you?</p>
         </div>

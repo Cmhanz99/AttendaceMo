@@ -35,17 +35,20 @@ class AdminController extends Controller
     public function teachers(){
         $user = session('user_id');
         $teachers = Teachers::all();
+        $courses = Course::all();
 
         $client = Client::where('id',$user)->first();
-        return view('admin.teachers', compact('client', 'teachers'));
+        return view('admin.teachers', compact('client', 'teachers', 'courses'));
     }
 
     public function students(){
         $user = session('user_id');
         $students = Students::all();
+        $courses = Course::all();
+        $teachers = Teachers::all();
 
         $client = Client::where('id',$user)->first();
-        return view('admin.students', compact('client', 'students'));
+        return view('admin.students', compact('client', 'students', 'courses', 'teachers'));
     }
 
     public function request(){

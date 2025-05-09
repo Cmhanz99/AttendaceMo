@@ -1,11 +1,11 @@
 .main-dashboard {
     width: calc(100% - 20%);
-    padding: 30px;
 }
 
 .profile-container {
     width: 100%;
-    height: 100%;
+    height: calc(100% - 12%);
+    margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -24,6 +24,7 @@
     width: 100%;
     height: 100%;
     border-radius: 10px;
+    padding: 10px;
 }
 
 .profile-handles {
@@ -31,12 +32,15 @@
     width: 100%;
     height: 100%;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
 .profile-info {
     background: var(--primary-color);
     border-radius: 10px;
-    border: 1px solid red;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -45,7 +49,6 @@
 }
 
 .profile-image {
-    border: 1px solid red;
     width: 100%;
     height: calc(100% - 60%);
     display: flex;
@@ -53,6 +56,7 @@
     align-items: end;
     background: white;
     position: relative;
+    border-radius: 10px;
 }
 
 .profile-image img {
@@ -125,3 +129,45 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+.profile-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: var(--secondary-color);
+    border-radius: 10px;
+    color: white;
+}
+
+.profile-header i,
+.profile-body i {
+    margin-right: 5px;
+}
+
+.profile-body {
+    color: white;
+}
+
+.profile-body p {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background: rgb(1, 1, 82);
+}
+
+#clock {
+    background-color: #0a1d56;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

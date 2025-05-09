@@ -27,6 +27,7 @@
             </div>
         </div>
     </aside>
+    
     @yield('content')
 </body>
 </html>

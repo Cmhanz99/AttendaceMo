@@ -15,8 +15,6 @@ return new class extends Migration
             $table->id();
             $table->string('course_name');
             $table->integer('duration')->default(0);
-            $table->integer('total_student')->default(0);
-            $table->integer('total_teacher')->default(0);
             $table->string('status')->default('active');
             $table->timestamps();
         });
